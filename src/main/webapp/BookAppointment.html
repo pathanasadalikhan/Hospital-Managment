@@ -1,0 +1,100 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Appointment</title>
+    <style>
+        #div21{
+            height: 450px;
+            width: 300px;
+            padding: 15px;
+            margin: auto;
+            text-align: center;
+            margin-top: 50px;
+            box-shadow: 5px 5px 5px 5px rgb(90, 52, 133) ;
+            border-radius: 5px 10px 10px 50px;
+            backdrop-filter: blur(5px);
+        }
+        input{
+            background-color: rgb(171, 171, 192);
+            text-align: center;
+            border:none;
+            border-radius: 5px;
+            
+        }
+		input:hover{
+            background-color:rgb(255, 255, 255) ;
+        }   
+        input[type="radio"] {
+            margin-right: 5px;
+        }
+        
+        #mydiv{
+            
+            text-align: center;
+            color:rgb(249, 247, 247);
+            padding-top: 10px;
+            height: 100px;
+            background-color: rgb(235, 235, 243);
+            width: 100%;
+        }
+        #he{
+            font-size: xx-large;
+            color: blue;
+        }
+        #mysubmit{
+            height: 30px;
+            width: 120px;
+        }
+        #mysubmit:hover{
+            
+            background-color:rgb(119, 235, 84);
+        }
+        #gender{
+            background-color:  rgb(171, 171, 192);
+        }
+        #si{
+            color: blue;
+        }
+        #selected{
+            height: 25px;
+            width: 230px;
+        }
+        .selected{
+           background-color: rgb(171, 171, 192);
+        }
+    </style>
+</head>
+<body style="background-image: url('https://tse4.mm.bing.net/th?id=OIP.tMbqMO82Q-spSihXEYosxwHaEA'); background-size:cover;">
+ <nav id="mydiv"><h3 id="he">Welcome To SIAS Hospital</h3></nav>
+<div id="div2"><center>
+<div id="div21">
+    <h3 id="si">Book Your Appointment</h3>
+    <form action="Book" method="post">
+        <input type="text" id="in" name="name" placeholder="Enter Your Name" ><br></br>
+		<input type="text" id="in" name="age" placeholder="Enter Your Age" ><br></br>                        
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br></br>
+        <select name="selected" class="selected" id="selected" >
+        <option value="scrollbar" >Select your Medical Condition</option>
+            <option value="Neurology" >Neurology</option>
+            <option value="Cardiology" >Cardiology</option>
+            <option value="Nephrology" >Nephrology</option>
+            <option value="Gastroenterology">Gastroenterology</option>
+            <option value="Maternity">Maternity</option>
+            <option value="Pharmacy">Pharmacy</option>
+        </select><br></br>
+        <h3 style="color: blue;">Appointment Date</h3>
+        <input type="date" id="in" name="date"><br></br>
+        <input type="submit" value="Book Appointment" id="mysubmit"><br></br>
+        <p id="myresp"></p>
+     </form>
+</div >
+</center>
+</div>
+</body>
+</html>

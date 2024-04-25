@@ -1,0 +1,200 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aliceblue;
+        }
+        #ima{
+            height: 200px;
+            width: 150px;
+            border-radius: 15px;
+            box-shadow: 5px 5px rgb(92, 228, 207);
+        }
+        #parent{
+            background-color: rgb(210, 241, 241);
+            height:fit-content;
+            width: 350px;
+            padding: 20px 0px 10px 100px ;
+            margin: 10px 10px 10px 10px;
+            border-radius: 15px;
+        }
+        #grandparent{
+            display: flex;
+        }
+        header{
+            height:140px;
+            width: 100%;
+            background-color: rgb(0, 230, 230);
+            display: flex;
+            position: fixed;
+            top: 0px;
+        }
+        #imag{
+            height: 70px;
+            width:230px;
+            border-radius: 10px;
+        }
+        #imd{
+            padding: 25px 10px;
+            border-radius: 15px;
+        }#whi{
+            color: rgb(102, 0, 102);
+        }
+        #about{ 
+            height: 40px;
+            width: 95spx;
+            border-radius: 10px;
+            border: 4px solid rgb(26, 212, 85);
+            font-size:x-large;
+            margin-left: 715px;
+            background-color:rgb(255, 255, 255);
+            position: absolute ;
+            top: 40px;
+        }
+        #treatment{
+            height: 40px;
+            width: 160px;
+            border-radius: 10px;
+            border:4px solid rgb(26, 212, 85);
+            font-size:x-large;
+            margin-left: 830px;
+            background-color: rgb(255, 255, 255);
+            position: absolute ;
+            top: 40px;
+        }
+        #home{
+            height: 40px;
+            width: 90px;
+            border-radius: 10px;
+            border:4px solid rgb(26, 212, 85);
+            font-size:x-large;
+            margin-left: 600px;
+            background-color: rgb(255, 255, 255);
+            position: absolute ;
+            top: 40px;
+        }
+        #about:hover{
+            transform:matrix3d(5px);
+        }
+        #boa{
+            height: 70px;
+            width: 130px;
+            background-color:rgb(26, 212, 85);
+            border-radius: 10px;
+            border:5px solid green;
+            font-size:large;
+            margin-left: 1015px;
+            position: absolute;
+            top: 25px;
+        }
+        #bok{
+            color: white;
+        }
+        nav{
+            height: 40px;
+            width: 100%;
+            border-radius: 0px 0px 0px 10px;
+            background-color: rgb(0, 128, 255); 
+            position:fixed;
+            top: 120px;
+        }
+        #mail{
+            color: white;
+            /* font-size: large; */
+        }
+        #na{
+            margin-left: 1150px;
+            color:white;
+            font-size: large;
+            position: fixed;
+            top: 110px;
+        }
+        #co{
+            margin-left: 850px;
+            font-size: large;
+            color: rgb(255, 255, 255);
+            position: fixed;
+            top: 110px;
+            text-decoration: none;
+        }
+        button,a{
+            text-decoration: none;
+        }
+        main{
+            margin-top: 140px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="imd"><img src="https://images.shiksha.com/mediadata/images/1684991343phppN3OKF.jpeg" id="imag">
+            <button id="home"><a href="/HospitalProject/NewFile.html" id="whi">HOME</a></button>
+            <button id="about"><a href="#" id="whi">ABOUT</a></button >
+            <button id="treatment"><a href="#" id="whi">TREATMENT</a></button>
+            <button id="boa"><a href="/HospitalProject/BookAppointment.html" id="bok">Book Appointment</a></button>
+        
+        </div>
+    </header>
+    <main>
+    <div id="grandparent">
+        <div id="parent">
+            <img id="ima" src="https://previews.123rf.com/images/espies/espies1707/espies170700439/82494474-portrait-of-an-cheerful-indian-handsome-male-doctor-with-a-stethoscope-around-his-neck-isolated-over.jpg">
+            <p style="color: blue;"><span>Name :Dr.Pathan Asad</span><br><span> Age :30</span><br><span>department : gynecologist</span><br><span>Experience :6years</span><br><span>Education Details :MBBS</span><br><span style="color:rgb(225, 129, 11);  ">Junior Doctor</span></p>
+        </div>
+        <div id="parent">
+            <img id="ima" src="https://img.freepik.com/premium-photo/indian-female-doctor-indian-nurse_714173-201.jpg">
+            <p style="color: rgb(8, 83, 245);"><span>Name :Dr.Ramya </span><br><span> Age :31</span><br><span>department : neurosurgeon</span><br><span>Experience :5years</span><br><span>Education Details :MBBS</span><br><span style="color: rgb(225, 129, 11);">Junior Doctor</span></p>
+        </div>
+        <div id="parent">
+            <img id="ima" src="https://www.kauveryhospital.com/doctorimage/recent/tennur/Dr-Madhusudhan.jpg">
+            <p style="color: blue;"><span>Name :Dr.Rohith BD</span><br><span> Age :40</span><br><span>department : Urology</span><br><span>Experience :9years</span><br><span>Education Details :MBBS</span><br><span style="color:rgb(25, 42, 1);  ">Senior Doctor</span></p>
+        </div>
+        <div id="parent">
+            <img id="ima" src="https://kdhospital.co.in/assets/images/doctors/dr-sandip-modh-best-neurosurgeon-in-ahmedabad.jpg">
+            <p style="color: rgb(8, 83, 245);"><span>Name :Dr.Ashoke </span><br><span> Age :48</span><br><span>department : neurosurgeon</span><br><span>Experience :15years</span><br><span>Education Details :MBBS</span><br><span style="color:rgb(25, 42, 1);">Senior Doctor</span></p>
+        </div>
+        
+    </div>
+    <div id="grandparent">
+        <div id="parent">
+            <img id="ima" src="https://img.freepik.com/premium-photo/indian-female-doctor-indian-nurse_714173-201.jpg">
+            <p style="color: rgb(8, 83, 245);"><span>Name :Dr.Ramya </span><br><span> Age :31</span><br><span>department : neurosurgeon</span><br><span>Experience :5years</span><br><span>Education Details :MBBS</span><br><span style="color: rgb(225, 129, 11);">Junior Doctor</span></p>
+        </div>
+        <div id="parent">
+            <img id="ima" src="https://previews.123rf.com/images/espies/espies1707/espies170700439/82494474-portrait-of-an-cheerful-indian-handsome-male-doctor-with-a-stethoscope-around-his-neck-isolated-over.jpg">
+            <p style="color: blue;"><span>Name :Dr.Pathan Asad</span><br><span> Age :30</span><br><span>department : gynecologist</span><br><span>Experience :6years</span><br><span>Education Details :MBBS</span><br><span style="color:rgb(225, 129, 11);  ">Junior Doctor</span></p>
+        </div>
+        <div id="parent">
+            <img id="ima" src="https://kdhospital.co.in/assets/images/doctors/dr-sandip-modh-best-neurosurgeon-in-ahmedabad.jpg">
+            <p style="color: rgb(8, 83, 245);"><span>Name :Dr.Ashoke </span><br><span> Age :48</span><br><span>department : neurosurgeon</span><br><span>Experience :15years</span><br><span>Education Details :MBBS</span><br><span style="color:rgb(25, 42, 1);">Senior Doctor</span></p>
+        </div>
+        <div id="parent">
+            <img id="ima" src="https://www.kauveryhospital.com/doctorimage/recent/tennur/Dr-Madhusudhan.jpg">
+            <p style="color: blue;"><span>Name :Dr.Rohith BD</span><br><span> Age :40</span><br><span>department : Urology</span><br><span>Experience :9years</span><br><span>Education Details :MBBS</span><br><span style="color:rgb(25, 42, 1);  ">Senior Doctor</span></p>
+        </div>
+    </div>
+    <div id="grandparent">
+        <div id="parent">
+            <img id="ima" src="https://www.kauveryhospital.com/doctorimage/recent/tennur/Dr-Madhusudhan.jpg">
+            <p style="color: blue;"><span>Name :Dr.Rohith BD</span><br><span> Age :40</span><br><span>department : Urology</span><br><span>Experience :9years</span><br><span>Education Details :MBBS</span><br><span style="color:rgb(25, 42, 1);  ">Senior Doctor</span></p>
+        </div>
+        <div id="parent">
+            <img id="ima" src="https://kdhospital.co.in/assets/images/doctors/dr-sandip-modh-best-neurosurgeon-in-ahmedabad.jpg">
+            <p style="color: rgb(8, 83, 245);"><span>Name :Dr.Ashoke </span><br><span> Age :48</span><br><span>department : neurosurgeon</span><br><span>Experience :15years</span><br><span>Education Details :MBBS</span><br><span style="color:rgb(25, 42, 1);">Senior Doctor</span></p>
+        </div>
+        <div id="parent">
+            <img id="ima" src="https://img.freepik.com/premium-photo/indian-female-doctor-indian-nurse_714173-201.jpg">
+            <p style="color: rgb(8, 83, 245);"><span>Name :Dr.Ramya </span><br><span> Age :31</span><br><span>department : neurosurgeon</span><br><span>Experience :5years</span><br><span>Education Details :MBBS</span><br><span style="color: rgb(225, 129, 11);">Junior Doctor</span></p>
+        </div>
+        <div id="parent">
+            <img id="ima" src="https://previews.123rf.com/images/espies/espies1707/espies170700439/82494474-portrait-of-an-cheerful-indian-handsome-male-doctor-with-a-stethoscope-around-his-neck-isolated-over.jpg">
+            <p style="color: blue;"><span>Name :Dr.Pathan Asad</span><br><span> Age :30</span><br><span>department : gynecologist</span><br><span>Experience :6years</span><br><span>Education Details :MBBS</span><br><span style="color:rgb(225, 129, 11);  ">Junior Doctor</span></p>
+        </div>
+    </div>
+    
+    </main>
+</body>
+</html>

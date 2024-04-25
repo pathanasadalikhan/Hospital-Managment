@@ -1,0 +1,317 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(202, 202, 248);
+        }
+        header{
+            height:140px;
+            width: 100%;
+            background-color: rgb(23, 50, 208);
+            display: flex;
+            position: fixed;
+            top: 0px;
+        }
+        #imag{
+            height: 70px;
+            width:230px;
+            border-radius: 10px;
+        }
+        #imd{
+            padding: 25px 10px;
+            border-radius: 15px;
+        }
+        #whi{
+            color: rgb(102, 0, 102);
+        }
+        #about{ 
+            height: 40px;
+            width: 95spx;
+            border-radius: 10px;
+            border: 4px solid rgb(26, 212, 85);
+            font-size:x-large;
+            margin-left: 715px;
+            background-color:rgb(255, 255, 255);
+            position: absolute ;
+            top: 40px;
+        }
+        #treatment{
+            height: 40px;
+            width: 160px;
+            border-radius: 10px;
+            border:4px solid rgb(26, 212, 85);
+            font-size:x-large;
+            margin-left: 830px;
+            background-color: rgb(255, 255, 255);
+            position: absolute ;
+            top: 40px;
+        }
+        #home{
+            height: 40px;
+            width: 90px;
+            border-radius: 10px;
+            border:4px solid rgb(26, 212, 85);
+            font-size:x-large;
+            margin-left: 600px;
+            text-decoration: none;
+            background-color: rgb(255, 255, 255);   
+            position: absolute ;
+            top: 40px;
+        }
+        button,a{
+            text-decoration: none;
+        }
+        #boa{
+            height: 70px;
+            width: 130px;
+            background-color:rgb(26, 212, 85);
+            border-radius: 10px;
+            border:5px solid green;
+            font-size:large;
+            margin-left: 1015px;
+            position: absolute;
+            top: 25px;
+        }
+        #bok{
+            color: white;
+        }
+        nav{
+            height: 40px;
+            width: 100%;
+            border-radius: 0px 0px 0px 10px;
+            background-color: rgb(0, 128, 255); 
+            position:fixed;
+            top: 120px;
+        }
+        #mail{
+            color: white;
+            /* font-size: large; */
+        }
+        #na{
+            margin-left: 1150px;
+            color:white;
+            font-size: large;
+            position: fixed;
+            top: 110px;
+        }
+        #co{
+            margin-left: 850px;
+            font-size: large;
+            color: rgb(255, 255, 255);
+            position: fixed;
+            top: 110px;
+            text-decoration: none;
+        }
+        a{
+            color: blue;
+            border: none;
+        }
+        main{
+            position:static;
+            margin-top: 160px;
+        }
+        #mo{
+            height:400px;
+            width: 1430px;
+            border-radius: 10px;
+            margin-top: 10px;
+            background-color: aqua;
+            padding: 20px;
+            display: flex;
+            /* position: absolute;
+            top: 140px; */
+        }
+        #moo{
+            height: 370px;
+            width: 130%;
+            padding: 10px 20px 10px 20px ;
+            border-radius: 0px 0px 0px 50px;
+            background-color: rgb(233, 215, 165);
+            /* position: relative; */
+        }
+        #mooeven{
+            height: 370px;
+            width: 130%;
+            padding: 10px 20px 10px 20px ;
+            border-radius: 0px 50px 0px 0px;
+            background-color: greenyellow;
+            /* position: relative; */
+        }
+        #mot{
+            padding-left: 0px;
+            height: 390px;
+            border-radius: 0px 50px 0px 0px;
+            width: 100%;
+        }
+        #moteven{
+            padding-left: 0px;
+            height: 390px;
+            border-radius: 0px 0px 0px 50px;
+            width: 100%;
+        }
+        #hosp_img{
+            height: 700px;
+            background-image: none;
+            width: 100%;
+            border-radius: 10px;
+        }
+        footer{
+            height:fit-content;
+            padding: 10px 20px 10px 20px;
+            margin-top: 10px;
+            border-radius: 10px;
+            background-color: rgb(41, 45, 47);
+        }
+        #fp{
+            margin-left: 00px;
+            color: white;
+        }
+        #fpa{
+            margin-left: 190px;
+            color: white;
+        }
+        #fppc{
+            width: 196px;
+            color:white;
+            margin-left: 110px;
+            border-bottom: 3px solid white;
+        }
+        #fppo{
+            width: 173px;
+            color:white;
+            border-bottom: 3px solid white;
+        }
+        #fppa{
+            width: 98px;
+            margin-left: 190px;
+            color:white;
+            border-bottom: 3px solid white;
+        }
+        #contact{
+            margin-left: 110px;
+            color: white;
+        }
+        #know{
+            height: 50px;
+            width:100px;
+            font-size: x-large;
+        }
+        #par{
+            font-size: large;
+        }
+        #fparent{
+            display: flex;
+        }
+        .socials__item {
+            padding-right: 1.7rem;
+            position: relative;
+            font-size: x-large;
+            color: greenyellow;
+        }
+        .socials {
+            display: flex;
+            justify-content: flex-start;
+            line-height: 0;
+            list-style-type: none;
+            margin: 0;
+        }
+        #anc{
+            color: red;
+            margin-left: 160px;
+        }
+        .cta__body{
+            margin-left: 300px;
+            margin-bottom: 30px;
+        }
+        #anp{
+            color: aqua;
+            padding-left: 80px;
+            font-size: x-large;
+        }
+        #ana{
+            margin-left:200px;
+        }
+        #socialm{
+            border-radius: 10px;
+            padding-left: 30px;
+            border: 10px rgb(41, 45, 47) ;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="imd"><img src="https://images.shiksha.com/mediadata/images/1684991343phppN3OKF.jpeg" id="imag">
+            <button id="home"><a href="/HospitalProject/NewFile.html">HOME</a></button>
+            <button id="about"><a href="#" id="whi">ABOUT</a></button >
+            <button id="treatment"><a href="#" id="whi">TREATMENT</a></button>
+            <button id="boa"><a href="/HospitalProject/BookAppointment.html" id="bok">Book Appointment</a></button>
+        
+        </div>
+    </header>
+    <nav>
+        <p id="na">Email :<a href="pathanasadalikhan@gamil.com" id="mail">pathanasadalikhan@gmail.com</a></p>
+        <p id="co">Contact number :<a href="#" id="mail">+91 6309667257</a></p>
+    </nav>
+    <main>
+        <img src="https://tinehealth.com/wp-content/uploads/2017/07/Tine-Website-Photos-Articles-24.jpg" alt="it is a image" id="hosp_img">
+        <div id="mo">
+            <div id="moo"><h1>Our Doctors</h1>
+            <p id="par">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus, quia repudiandae ratione id reiciendis eius quod eveniet ullam ad ducimus? Delectus asperiores quam odio cumque, rem itaque eligendi vero? Dolores labore aliquid alias accusamus aperiam distinctio ex, magni suscipit odio minima expedita laboriosam provident ratione qui voluptatem laudantium minus numquam, saepe vero sint quo, vitae iusto pariatur? Temporibus ut quo nihil voluptatibus suscipit eveniet perspiciatis consequatur aliquid, sapiente id aut possimus harum accusantium repellat impedit ducimus nisi nemo voluptates recusandae! Repellendus soluta, provident tempore unde cum reiciendis et nam illo velit eligendi voluptatum, dolorum, sit temporibus voluptatibus alias enim deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi inventore veniam dolor aliquam fugiat aut sit repellat vitae cupiditate, debitis, fuga facilis illo officia illum omnis excepturi quam! Vitae minima numquam dignissimos, blanditiis provident natus rem distinctio eos facilis error iure, nam non quaerat iusto voluptatem aliquam dicta doloribus laudantium.</p>
+            <a href="/HospitalProject/AboutDoctors.html" id="know">know more</a>
+            </div>
+            <div id="mot"><img src="https://images.indianexpress.com/2023/07/doc-patient.jpg" alt="doctor image" id="mot"></div>
+        </div>
+        <div id="mo">
+            <div id="mot"><img src="https://media.istockphoto.com/id/1364075546/photo/empty-corridor-in-modern-hospital-with-information-counter-and-hospital-bed-in-rooms-3d.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=xxFDmIVpH1wJaaiorpvfzec4RRggSb48PDb_dU9bTjo=" alt="doctor image" id="moteven"></div>
+            <div id="mooeven"><h1>Photos of Hospital</h1>
+                <p id="par">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus, quia repudiandae ratione id reiciendis eius quod eveniet ullam ad ducimus? Delectus asperiores quam odio cumque, rem itaque eligendi vero? Dolores labore aliquid alias accusamus aperiam distinctio ex, magni suscipit odio minima expedita laboriosam provident ratione qui voluptatem laudantium minus numquam, saepe vero sint quo, vitae iusto pariatur? Temporibus ut quo nihil voluptatibus suscipit eveniet perspiciatis consequatur aliquid, sapiente id aut possimus harum accusantium repellat impedit ducimus nisi nemo voluptates recusandae! Repellendus soluta, provident tempore unde cum reiciendis et nam illo velit eligendi voluptatum, dolorum, sit temporibus voluptatibus alias enim deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi inventore veniam dolor aliquam fugiat aut sit repellat vitae cupiditate, debitis, fuga facilis illo officia illum omnis excepturi quam! Vitae minima numquam dignissimos, blanditiis provident natus rem distinctio eos facilis error iure, nam non quaerat iusto voluptatem aliquam dicta doloribus laudantium.</p>
+                <a href="/HospitalProject/Photos.html" id="know">See More photos</a>
+            </div>
+        </div>
+        <div id="mo">
+            <div id="moo"><h1>Emergency ward</h1>
+                <p id="par">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus, quia repudiandae ratione id reiciendis eius quod eveniet ullam ad ducimus? Delectus asperiores quam odio cumque, rem itaque eligendi vero? Dolores labore aliquid alias accusamus aperiam distinctio ex, magni suscipit odio minima expedita laboriosam provident ratione qui voluptatem laudantium minus numquam, saepe vero sint quo, vitae iusto pariatur? Temporibus ut quo nihil voluptatibus suscipit eveniet perspiciatis consequatur aliquid, sapiente id aut possimus harum accusantium repellat impedit ducimus nisi nemo voluptates recusandae! Repellendus soluta, provident tempore unde cum reiciendis et nam illo velit eligendi voluptatum, dolorum, sit temporibus voluptatibus alias enim deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi inventore veniam dolor aliquam fugiat aut sit repellat vitae cupiditate, debitis, fuga facilis illo officia illum omnis excepturi quam! Vitae minima numquam dignissimos, blanditiis provident natus rem distinctio eos facilis error iure, nam non quaerat iusto voluptatem aliquam dicta doloribus laudantium.</p>
+                <a href="#" id="know">know more</a>
+            </div>
+            <div id="mot"><img src="https://i.pinimg.com/originals/94/aa/ed/94aaed9343ed1158a7bc963894ab4136.jpg" alt="doctor image" id="mot"></div>
+        </div>
+        <div id="mo">
+            <div id="mot"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLgGc-BArh6UDAW6Gm9t-86uAZ1U9CSnfqYg&amp;usqp=CAU" alt="doctor image" id="moteven"></div>
+            <div id="mooeven"><h1>Review's of our Hospital</h1>
+            <p id="par">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus, quia repudiandae ratione id reiciendis eius quod eveniet ullam ad ducimus? Delectus asperiores quam odio cumque, rem itaque eligendi vero? Dolores labore aliquid alias accusamus aperiam distinctio ex, magni suscipit odio minima expedita laboriosam provident ratione qui voluptatem laudantium minus numquam, saepe vero sint quo, vitae iusto pariatur? Temporibus ut quo nihil voluptatibus suscipit eveniet perspiciatis consequatur aliquid, sapiente id aut possimus harum accusantium repellat impedit ducimus nisi nemo voluptates recusandae! Repellendus soluta, provident tempore unde cum reiciendis et nam illo velit eligendi voluptatum, dolorum, sit temporibus voluptatibus alias enim deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi inventore veniam dolor aliquam fugiat aut sit repellat vitae cupiditate, debitis, fuga facilis illo officia illum omnis excepturi quam! Vitae minima numquam dignissimos, blanditiis provident natus rem distinctio eos facilis error iure, nam non quaerat iusto voluptatem aliquam dicta doloribus laudantium.</p>
+            <a href="#" id="know">know more</a>
+            </div>
+            
+        </div>
+        <div id="mo">
+            <div id="moo"><h1>Our Vehicles</h1>
+            <p id="par">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus, quia repudiandae ratione id reiciendis eius quod eveniet ullam ad ducimus? Delectus asperiores quam odio cumque, rem itaque eligendi vero? Dolores labore aliquid alias accusamus aperiam distinctio ex, magni suscipit odio minima expedita laboriosam provident ratione qui voluptatem laudantium minus numquam, saepe vero sint quo, vitae iusto pariatur? Temporibus ut quo nihil voluptatibus suscipit eveniet perspiciatis consequatur aliquid, sapiente id aut possimus harum accusantium repellat impedit ducimus nisi nemo voluptates recusandae! Repellendus soluta, provident tempore unde cum reiciendis et nam illo velit eligendi voluptatum, dolorum, sit temporibus voluptatibus alias enim deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi inventore veniam dolor aliquam fugiat aut sit repellat vitae cupiditate, debitis, fuga facilis illo officia illum omnis excepturi quam! Vitae minima numquam dignissimos, blanditiis provident natus rem distinctio eos facilis error iure, nam non quaerat iusto voluptatem aliquam dicta doloribus laudantium.</p>
+            <a href="#" id="know">know more</a>
+            </div>
+            <div id="mot"><img src="https://static.toiimg.com/thumb/msid-76486744,width-1070,height-580,imgsize-78667,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg" alt="doctor image" id="mot"></div>
+        </div>
+    </main>
+    <footer>
+        <div class="cta__body">
+            <h1 style="color: rgb(0, 255, 42);" id="ana">Contact with SIAS Hospital </h1>
+            <p id="anp">Join our social networks to stay up-to-date with the SIAS Hospital​</p>
+            <ul class="socials">
+                <li class="socials__item"><a href="https://www.facebook.com/usauniversityhospital" id="anc"><img src="https://www.freeiconspng.com/uploads/official-facebook-icon-png-4.png" width="50px" height="50px" id="socialm"></a></li>
+                <li class="socials__item"><a href="https://www.instagram.com/pathan_asad_ali_khan/" id="anc"><img src="https://logodownload.org/wp-content/uploads/2017/04/instagram-logo-6.png" width="50px" height="50px" id="socialm"></a></li>
+                
+            </ul>
+        </div>
+        <div id="fparent">
+        <div><h2 id="fppo">Opening Hours :</h2><p id="fp">Mon  :12:00 AM-11:30 PM<br>Tue  : 12:00 AM-11:30 PM<br>Wed  :12:00 AM-11:30 PM<br>Thu  :12:00 AM-11:30 PM<br>
+            Fri  :12:00 AM-11:30 PM<br>
+            Sat  :12:00 AM-11:30 PM<br>
+            Sun  :12:00 AM-11:30 PM</p></div>
+        
+        <div><h2 id="fppa">Address :</h2><p id="fpa">202, Rashtriya Vidyalaya Rd, 2nd Block, Basavanagudi, Bengaluru, Karnataka 560004</p></div>
+        <div><h2 id="fppc">Contact Numbers :</h2><p id="contact">+91 7760595290<br> +91 7675073257 <br>+91 9406694471</a></p></div></div>
+    </footer>
+</body>
+</html>
